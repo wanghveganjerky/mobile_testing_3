@@ -1,69 +1,223 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Vollkorn&display=swap');
-
-*{
-  background-color: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64"><circle cx="8" cy="8" r="7" fill="black"/></svg>') 8 8, auto;
-}
-
-body {
-  overflow: auto;
-  -webkit-font-smoothing: antialiased; 
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    scroll-behavior: smooth;
+div {
+	max-height: 100vh; /* New rule to ensure the max height is not more than 100% of the viewport height */
+	box-sizing: border-box; /* This makes sure padding and borders are included in the width/height calculations */
   }
+
+#logo{
+	width: 500px;
+	height:80px;
 }
 
-#box {
-  width: 100px;
-  height: 100px;
-  margin: 10px auto;
-  text-align: center;
-  line-height: 100px;
-  background-color: skyblue;
-  border-radius: 10px;
+#box1 {
+	font-size: 3.125vw; /* 60px equivalent if viewport width is 1920px */
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	margin-left: -10vw; /* Half of the width */
+	top: 50%;
+	margin-top: -5vh; /* Half of the height */
+	width: 20vw;
+	height: 8.6vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+  }
+
+  #box2 {
+	font-size: 1.3vw;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: scroll;
+	width: 20vw;
+	height: 100vh;
+  }
+
+#box3{
+	font-size: 30px;
+	position: absolute;
+	left: 20%;
+	top: 0%;
+	overflow: scroll;
+	width: 19.55%;
+	height: 100px;
 }
 
-
-
-h2{
-  font-family: 'Manrope', sans-serif;
-  font-size: 1.1em;
-  line-height: 1.7;
-  color:#000000;
-  /* display: none; */
+#box4{
+	font-size: 28px;
+	position: absolute;
+	left: 60%;
+	top: 0%;
+	overflow: scroll;
+	width: 19.55%;
+	height: 100px;
 }
 
-h3{
-  font-family: "obviously-variable", sans-serif;
-  font-size: 10vh;
-  line-height: 0.65;
-  color:#000000;
+#box5{
+	font-size: 28px;
+	position: absolute;
+	left: 80%;
+	top: 0%;
+	overflow: scroll;
+	width: 19.55%;
+	height: 100%;
 }
+
+#box6{
+	position: absolute;
+	left: 19.55%;
+	top: 13.1%;
+	width: 7.82%;
+	height: 26.2%;
+	overflow: scroll;
+}
+
+#box7{
+	position: absolute;
+	left: 40%;
+	width: 19.55%;
+	height: 41.92%;
+	font-size: 20px;
+	overflow: scroll;
+}
+
+#box8{
+	position: absolute;
+	left: 27.8%;
+	top:13.1%;
+	width: 11.73%;
+	height: 26.2%;
+	overflow: scroll;
+}
+
+#box9{
+	font-size: 17px;
+	position: absolute;
+	left: 60%;
+	top: 28.82%;
+	width: 19.55%;
+	height: 26.2%;
+	overflow: scroll;
+}
+
+#box10{
+	position: absolute;
+	left: 60%;
+	top:13.1%;
+	width: 19.55%;
+	height: 17.03%;
+	overflow: scroll;
+}
+
+#box11{
+	position: absolute;
+	left: 36.8%;
+	top: 55.4%;
+	width: 26.07%;
+	height: 6.75%;
+	overflow:scroll;
+	font-size: 27px;
+}
+
+#box12{
+	font-size: 20px;
+	word-spacing: 5px;
+	position: absolute;
+	left: 76.8%;
+	top: 92%;
+	width: 3.2%;
+	height: 7.86%;
+	overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+}
+
+#box13{
+	position: absolute;
+	left: 20%;
+	top: 55%;
+	width: 16.55%;
+	height: 26.2%;
+	overflow: scroll;
+}
+
+#box14{
+	position: absolute;
+	left: 20%;
+	top: 40%;
+width: 20.2%;
+height: 15.72%;
+overflow: scroll;	
+}
+
+#box15{
+	position: absolute;
+	left: 76.4%;
+	top: 55%;
+	width: 3.2%;
+	height: 39.3%;
+	overflow-x: hidden;
+overflow-y: scroll;
+}
+
+#box16{
+position: absolute;
+left: 20%;
+top: 80%;
+width: 16.55%;
+height: 15.72%;
+overflow: scroll;
+}
+
+#box17{
+	position: absolute;
+	left: 36.9%;
+	top: 60.2%;
+	width: 26.07%;
+	height: 35.37%;
+	overflow: scroll;
+}
+
+#box18{
+	position: absolute;
+	font-size: 24px;
+	left: 63.5%;
+	top: 56.6%;
+	width: 12.64%;
+	height: 39.3%;
+	overflow: scroll;
+}
+
+#box19{
+	position: absolute;
+	background-color: black;
+	left: 20%;
+	top: 96%;
+	width:55.72%;
+	height: 3.93%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+p{
+	margin-left: 20px;
+}
+
 
 ::-webkit-scrollbar{
-  width: 42px;
-}
-
-::-webkit-scrollbar-track{
-  background-color:white;
-}
-
-::-webkit-scrollbar-thumb{
-  box-shadow:inset 0px 0px 2vh 0.3vh #d5e5ff;
-  background:linear-gradient(to right, yellow 3%, #00f000 70%);
-  border-radius:50vh;
-  display:inline-block;
-  /* padding:1.2vh 1.2vh; */
-  text-decoration:none;
-}
-
+	width: 42px;
+  }
+  
+  ::-webkit-scrollbar-track{
+	background-color:white;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+	box-shadow:inset 0px 0px 2vh 0.3vh #d5e5ff;
+	background:linear-gradient(to right, yellow 3%, #00f000 70%);
+	border-radius:50vh;
+	display:inline-block;
+	/* padding:1.2vh 1.2vh; */
+	text-decoration:none;
+  }
+  
