@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Vollkorn&display=swap');
+
+*{
+  background-color: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64"><circle cx="8" cy="8" r="7" fill="black"/></svg>') 8 8, auto;
+}
+
+body {
+  overflow: auto;
+  -webkit-font-smoothing: antialiased; 
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  text-align: center;
+  line-height: 100px;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+
+h2{
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.7;
+  color:#000000;
+  /* display: none; */
+}
+
+h3{
+  font-family: "obviously-variable", sans-serif;
+  font-size: 10vh;
+  line-height: 0.65;
+  color:#000000;
+}
+
+::-webkit-scrollbar{
+  width: 42px;
+}
+
+::-webkit-scrollbar-track{
+  background-color:white;
+}
+
+::-webkit-scrollbar-thumb{
+  box-shadow:inset 0px 0px 2vh 0.3vh #d5e5ff;
+  background:linear-gradient(to right, yellow 3%, #00f000 70%);
+  border-radius:50vh;
+  display:inline-block;
+  /* padding:1.2vh 1.2vh; */
+  text-decoration:none;
+}
+
